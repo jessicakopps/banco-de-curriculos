@@ -1,0 +1,22 @@
+h4 {
+  font-size: 24px;
+  padding-top: 40px;
+  text-align: center;  
+}
+
+h5 {
+  font-size: 18px;
+  padding-top: 50px;
+  text-align: center;  
+}
+
+
+.imagens{
+  text-align: center;
+}
+
+img {
+  padding: 30px;
+  width: 200px;
+  
+}
