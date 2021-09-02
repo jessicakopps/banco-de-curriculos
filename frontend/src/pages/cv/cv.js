@@ -70,7 +70,7 @@ const App = () => {
 
 
       <section id='container'>
-      <form action="/add" id="cv_form">
+      <form id="cv_form">
       
       <h2 id='titulo'>Dados Pessoais</h2>
       <div id="form-row">    
