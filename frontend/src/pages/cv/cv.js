@@ -47,7 +47,7 @@ const App = () => {
     phone2: '',
     rg: '',
     vehicle: '',
-    cnh: '',
+    cnh: ''
   });
 
   // const [cpfError, setCpfError] = useState(false);
