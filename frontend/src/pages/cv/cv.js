@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from '../../componentes/navbar/navbar'
 import './cv.css';
+import api from '../../services/api';
 
-
-const App = () => {
+const Cv = () => {
 
   const fetchAddress = async () => {
     const address = await axios.get(`https://viacep.com.br/ws/${form.cep}/json/`);
@@ -15,7 +15,7 @@ const App = () => {
 
   const createCandidate = async (candidate) => {
     try {
-      const user = await axios.post('https://backend-banco-de-dados.herokuapp.com/register', form);
+      const user = await api.post('/register', form);
       if (user.status === 200) {
         alert('Cadastro enviado com sucesso!');
       } 
@@ -25,8 +25,6 @@ const App = () => {
 
     } 
   };
-
-
 
   const [form, setForm] = useState({
     name: '',    
@@ -70,7 +68,7 @@ const App = () => {
 
 
       <section id='container'>
-      <form action="/add" id="cv_form">
+      <form className="form">
       
       <h2 id='titulo'>Dados Pessoais</h2>
       <div id="form-row">    
@@ -267,4 +265,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Cv;
