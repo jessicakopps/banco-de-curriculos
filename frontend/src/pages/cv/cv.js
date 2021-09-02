@@ -15,7 +15,7 @@ const App = () => {
 
   const createCandidate = async (candidate) => {
     try {
-      const user = await axios.post('https://backend-banco-de-dados.herokuapp.com/', form);
+      const user = await axios.post('https://backend-banco-de-dados.herokuapp.com/register', form);
       if (user.status === 200) {
         alert('Cadastro enviado com sucesso!');
       } 
@@ -242,8 +242,8 @@ const App = () => {
       <fieldset>
         <label>Habilitação</label>
         <select onChange={(e) => {
-          setForm({ ...form, gender: e.target.value });
-        }} value={form.gender}>
+          setForm({ ...form, cnh: e.target.value });
+        }} value={form.cnh}>
           <option value=""> </option>
           <option value="Não possui">Não possui</option>
           <option value="Categoria A">Categoria A</option>
