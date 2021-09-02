@@ -48,8 +48,6 @@ const Cv = () => {
     cnh: ''
   });
 
-  // const [cpfError, setCpfError] = useState(false);
-
   useEffect (() => {
     console.log(form);
   }, [form]);
