@@ -11,7 +11,7 @@ import Cv from './pages/cv/cv';
 function Routes() {
     return ( 
         <BrowserRouter>
-            <Switch >]
+            <Switch >
             <Route exact path ={['', '/']} component ={Home} />
             <Route path = "/curriculo" component = { Cv } />
             <Route path = "/sobre" component = {Sobre} />
