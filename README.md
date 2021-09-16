@@ -1,6 +1,8 @@
-## Gama Academy - Site JobsNET :hammer_and_wrench: EM CONSTRUÇÃO :hammer_and_wrench: <br/>
+## Gama Academy - Site JobsNET<br/>
 Desafio de finalização do curso da Gama Academy. </br>
 Foi utilizado React.js, Node.js e o banco de dados MongoDB.</br>
+Deploy do frontend e backend: Heroku. </br>
+
 Irei aprimorá-lo ainda.</br>
 
 
