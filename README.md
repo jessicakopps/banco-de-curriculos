@@ -1,9 +1,13 @@
 ## Banco de Currículos - Site JobsNET<br/>
 Desafio de finalização do curso da Gama Academy. </br>
-Foi utilizado React.js, Node.js e o banco de dados MongoDB.</br>
-Deploy do frontend e backend: Heroku. </br>
 
-Irei aprimorá-lo ainda.</br>
+Foi utilizado 
+- React.js
+- Node.js
+- MongoDB. </br>
+
+Deploy do frontend e backend: 
+- Heroku. 
 
 
 <div align="center">
@@ -13,6 +17,13 @@ Irei aprimorá-lo ainda.</br>
 
 [![yNxeT1f.png](https://i.imgur.com/yNxeT1f.png)](https://imgur.com/yNxeT1f)
 </div>
+
+## Usando a aplicação
+Para usá-la, basta executar os seguintes comandos na raíz do projeto:
+```
+npm install
+npm start
+```
 
 
 
