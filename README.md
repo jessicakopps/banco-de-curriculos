@@ -1,7 +1,7 @@
 ## Banco de Currículos - Site JobsNET<br/>
 Desafio de finalização do curso da Gama Academy. </br>
 
-Foi utilizado 
+Tecnologia utilizadas:
 - React.js
 - Node.js
 - MongoDB. </br>
