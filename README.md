@@ -1,7 +1,8 @@
 ## Banco de Currículos - Site JobsNET<br/>
 
-Desafio de finalização do curso Start Tech da Gama Academy. </br>
+Desafio de finalização do curso Start Tech da Gama Academy. 
 
+<br>
 
 <div align="center">
    
@@ -19,7 +20,7 @@ Desafio de finalização do curso Start Tech da Gama Academy. </br>
 ### Deploy do frontend e backend: 
 - Heroku. 
 
-## Utilizando a aplicação
+### Utilizando a aplicação
 - Para usá-la, basta executar os seguintes comandos na raíz do projeto:
 ```
 npm install
