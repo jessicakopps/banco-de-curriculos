@@ -2,13 +2,11 @@
 
 Desafio de finalização do curso Start Tech da Gama Academy. </br>
 
----
 ### Tecnologias utilizadas:
 - React.js
 - Node.js
 - MongoDB. </br>
 
----
 ### Deploy do frontend e backend: 
 - Heroku. 
 
