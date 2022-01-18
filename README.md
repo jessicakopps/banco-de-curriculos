@@ -1,12 +1,15 @@
 ## Banco de Currículos - Site JobsNET<br/>
-Desafio de finalização do curso da Gama Academy. </br>
 
-Tecnologia utilizadas:
+Desafio de finalização do curso Start Tech da Gama Academy. </br>
+
+---
+### Tecnologias utilizadas:
 - React.js
 - Node.js
 - MongoDB. </br>
 
-Deploy do frontend e backend: 
+---
+### Deploy do frontend e backend: 
 - Heroku. 
 
 
@@ -18,8 +21,8 @@ Deploy do frontend e backend:
 [![yNxeT1f.png](https://i.imgur.com/yNxeT1f.png)](https://imgur.com/yNxeT1f)
 </div>
 
-## Usando a aplicação
-Para usá-la, basta executar os seguintes comandos na raíz do projeto:
+## Utilizando a aplicação
+- Para usá-la, basta executar os seguintes comandos na raíz do projeto:
 ```
 npm install
 npm start
